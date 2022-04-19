@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0941CD"
+    tools:context=".MainActivity">
+
+    <!-- If the video I linked looks very small, this file needs to be edited to adjust the video size.
+    This is the styling or layout of the video.
+     -->
+
+    <TextView
+        android:id="@+id/CST370description"
+        android:layout_width="369dp"
+        android:layout_height="680dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        android:text="Provides students with dynamic web application development skills, focusing on the integration of server-side programming, database connectivity, and client-side scripting. Coverage includes the Internet architecture, responsive design, RESTful web services, and Web APIs. Prerequisite(s)/Corequisite(s): (Prereq: CST 238 with a C- or better) Units: 4
+                                         Will be Taken: Fall 2022"
+        android:textAlignment="viewStart"
+        android:textColor="#F4F1F1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title336"
+        android:layout_width="216dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="CST336: Database Management"
+        android:textColor="#F8F5F5"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

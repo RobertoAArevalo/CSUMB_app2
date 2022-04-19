@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0941CD"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="605dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVideo"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/CST300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 300: Major ProSeminar"
+            android:textColor="#F4F1F1" />
+
+        <Button
+            android:id="@+id/CST338"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 338: Software Design"
+            android:textColor="#F6F5F5" />
+
+        <Button
+            android:id="@+id/CST363"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 363: Database Management"
+            android:textColor="#F3EFEF"
+            android:textColorHighlight="#F6F4F4" />
+
+        <Button
+            android:id="@+id/CST334"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 334: Operating Systems"
+            android:textColor="#FBF7F7" />
+
+        <Button
+            android:id="@+id/CST311"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 311: Introduction to Computer Networking"
+            android:textColor="#F8F5F5" />
+
+        <Button
+            android:id="@+id/CST336"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 336: Internet Programming"
+            android:textColor="#F4F1F1" />
+
+        <Button
+            android:id="@+id/CST370"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 370: Algorithms"
+            android:textColor="#F6F3F3" />
+
+        <Button
+            android:id="@+id/CST462S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 462S: Race, Gender, Class in the Digital World"
+            android:textColor="#F4F4F4" />
+
+        <Button
+            android:id="@+id/CST383"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 383: Introduction to Data Science"
+            android:textColor="#F6F3F3" />
+
+        <Button
+            android:id="@+id/CST438"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 438: Software Engineering"
+            android:textColor="#FAF6F6" />
+
+        <Button
+            android:id="@+id/CST489"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 489: Capstone Project Planning"
+            android:textColor="#F8F6F6" />
+
+        <Button
+            android:id="@+id/CST499"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CST 499: Directed Group Capstone"
+            android:textColor="#FAF7F7" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="videoActivity"
+        android:text="Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/screen_shot_2022_04_17_at_7_35_43_pm" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:text="CSUMB Classes"
+        android:textColor="#FAF6F6"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

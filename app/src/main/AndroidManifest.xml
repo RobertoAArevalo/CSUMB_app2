@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.csumb_app2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSUMB_app2">
+        <activity
+            android:name=".CustomListView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST300"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST338"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST363"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST334"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST311"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST336"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST370"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST462S"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST383"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name=".cST438"
+            android:label="@string/app_name"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".cST489"
+            android:label="@string/app_name"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".cST499"
+            android:label="@string/app_name"
+            />
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

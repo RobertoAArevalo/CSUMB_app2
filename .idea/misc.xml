@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.319" />
+        <entry key="app/src/main/res/layout/activity_custom_list_view.xml" value="0.2740628166160081" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.41961364746093754" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/cst300.xml" value="0.927685546875" />
+        <entry key="app/src/main/res/layout/cst311.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/cst334.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/cst336.xml" value="0.40757238307349664" />
+        <entry key="app/src/main/res/layout/cst338.xml" value="0.29239766081871343" />
+        <entry key="app/src/main/res/layout/cst363.xml" value="0.44289665775022646" />
+        <entry key="app/src/main/res/layout/cst370.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/cst383.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/cst438.xml" value="0.2974664705502589" />
+        <entry key="app/src/main/res/layout/cst462s.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/cst489.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/cst499.xml" value="0.29205017089843754" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.319" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

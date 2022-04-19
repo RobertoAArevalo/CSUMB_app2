@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0941CD"
+    tools:context=".MainActivity">
+
+    <!-- If the video I linked looks very small, this file needs to be edited to adjust the video size.
+    This is the styling or layout of the video.
+     -->
+
+    <TextView
+        android:id="@+id/CST370description"
+        android:layout_width="376dp"
+        android:layout_height="608dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:text="This course provides balanced coverage of database use and design,focusing on relational databases. Students will learn to design relational schemas, write SQL queries, access a DB programmatically,and perform database administration. Students will gain a working knowledge of the algorithms and data structures used in query evaluation and transaction processing. Students will also learn to apply newer database technologies such as XML, NoSQL, and Hadoop. Prerequisite(s)/Corequisite(s): (Prereq: CST 238 and MATH 130 with a C- or better)
+         Units: 4
+         Will be Taken: Summer 2022"
+        android:textAlignment="viewStart"
+        android:textColor="#F4F1F1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title336"
+        android:layout_width="231dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="CST363: Introduction to Database Systems"
+        android:textColor="#F8F5F5"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
