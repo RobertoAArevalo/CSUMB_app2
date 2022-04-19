@@ -21,10 +21,10 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 /**
- * This is a class called CST300 which is being called from
+ * This is a class called CST499 which is being called from
  * MainActivity via a function, and it is extending to AppCompatActivity.
  * It will run after the button is clicked from MainActivity.java.
- * A description will be presented for CST 300.
+ * A description will be presented for CST 499.
  */
 public class cST499 extends AppCompatActivity {
     @Override
